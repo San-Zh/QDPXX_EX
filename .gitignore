@@ -1,3 +1,5 @@
 .vscode/
 src/examples/*.bin
-src/examples/tmp/
+*.bin
+*.o
+.gitignore
