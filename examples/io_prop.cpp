@@ -47,13 +47,13 @@ int main(int argc, char const *argv[])
     LatticePropagator propA;
     LatticePropagator propB;
 
-    QDP_volfmt_t volfmt = QDPIO_MULTIFILE;
+    QDP_volfmt_t volfmt;
     std::string  test_file;
 
 
 
     {
-        volfmt == QDPIO_SINGLEFILE;
+        // volfmt == QDPIO_SINGLEFILE;
         test_file = "/home/Documents/Work/02_LQCDrefs/Chroma/tests/chroma_test/01_io/data/"
                     "propagator/singlefile/propA";
 
@@ -73,7 +73,7 @@ int main(int argc, char const *argv[])
 
 
     {
-        volfmt == QDPIO_MULTIFILE;
+        // volfmt == QDPIO_MULTIFILE;
         test_file = "/home/Documents/Work/02_LQCDrefs/Chroma/tests/chroma_test/01_io/data/"
                     "propagator/multifile/propA";
 
