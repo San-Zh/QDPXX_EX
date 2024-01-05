@@ -1,0 +1,3 @@
+.vscode/
+src/examples/*.bin
+src/examples/tmp/
